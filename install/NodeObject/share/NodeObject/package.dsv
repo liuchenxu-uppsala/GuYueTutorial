@@ -1,0 +1,6 @@
+source;share/NodeObject/hook/pythonpath.ps1
+source;share/NodeObject/hook/pythonpath.dsv
+source;share/NodeObject/hook/pythonpath.sh
+source;share/NodeObject/hook/ament_prefix_path.ps1
+source;share/NodeObject/hook/ament_prefix_path.dsv
+source;share/NodeObject/hook/ament_prefix_path.sh

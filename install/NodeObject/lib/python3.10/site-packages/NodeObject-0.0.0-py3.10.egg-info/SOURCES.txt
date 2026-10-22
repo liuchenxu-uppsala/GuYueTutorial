@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/NodeObject/NodeObject.egg-info/PKG-INFO
+../build/NodeObject/NodeObject.egg-info/SOURCES.txt
+../build/NodeObject/NodeObject.egg-info/dependency_links.txt
+../build/NodeObject/NodeObject.egg-info/entry_points.txt
+../build/NodeObject/NodeObject.egg-info/requires.txt
+../build/NodeObject/NodeObject.egg-info/top_level.txt
+../build/NodeObject/NodeObject.egg-info/zip-safe
+NodeObject/ObjectDetect.py
+NodeObject/__init__.py
+resource/NodeObject
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/HelloNodeClass/HelloNodeClass.egg-info
+writing ../build/HelloNodeClass/HelloNodeClass.egg-info/PKG-INFO
+writing dependency_links to ../build/HelloNodeClass/HelloNodeClass.egg-info/dependency_links.txt
+writing entry points to ../build/HelloNodeClass/HelloNodeClass.egg-info/entry_points.txt
+writing requirements to ../build/HelloNodeClass/HelloNodeClass.egg-info/requires.txt
+writing top-level names to ../build/HelloNodeClass/HelloNodeClass.egg-info/top_level.txt
+writing manifest file '../build/HelloNodeClass/HelloNodeClass.egg-info/SOURCES.txt'
+reading manifest file '../build/HelloNodeClass/HelloNodeClass.egg-info/SOURCES.txt'
+writing manifest file '../build/HelloNodeClass/HelloNodeClass.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/build
+creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/build/lib
+creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/build/lib/HelloNodeClass
+copying HelloNodeClass/HelloNodeClass..py -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/build/lib/HelloNodeClass
+copying HelloNodeClass/__init__.py -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/build/lib/HelloNodeClass
+running install
+running install_lib
+creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages/HelloNodeClass
+copying /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/build/lib/HelloNodeClass/HelloNodeClass..py -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages/HelloNodeClass
+copying /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/build/lib/HelloNodeClass/__init__.py -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages/HelloNodeClass
+byte-compiling /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages/HelloNodeClass/HelloNodeClass..py to HelloNodeClass..cpython-310.pyc
+byte-compiling /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages/HelloNodeClass/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/ament_index
+creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/ament_index/resource_index
+creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/ament_index/resource_index/packages
+copying resource/HelloNodeClass -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/ament_index/resource_index/packages
+copying package.xml -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass
+running install_egg_info
+Copying ../build/HelloNodeClass/HelloNodeClass.egg-info to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages/HelloNodeClass-0.0.0-py3.10.egg-info
+running install_scripts
+Installing helloclass script to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/HelloNodeClass
+writing list of installed files to '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/install.log'

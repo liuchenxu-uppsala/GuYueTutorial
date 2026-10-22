@@ -1,0 +1,9 @@
+{
+  "package_name": "learning_interface",
+  "non_idl_tuples": [
+    "/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/learning_interface:msg/ObjectPosition.msg",
+    "/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/learning_interface:srv/AddTwoInts.srv",
+    "/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/learning_interface:srv/GetObjectPosition.srv",
+    "/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/learning_interface:action/MoveCircle.action"
+  ]
+}

@@ -1,0 +1,213 @@
+[0.060s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.060s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7214315e1f30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7214315e12d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7214315e12d0>>, mixin_verb=('build',))
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.139s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNode) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNode) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNode) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNode) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNode) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNode) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNode) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNode) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNode) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'HelloNode' with type 'ros.ament_python' and name 'HelloNode'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNodeClass) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNodeClass) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNodeClass) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNodeClass) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNodeClass) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNodeClass) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNodeClass) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNodeClass) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(HelloNodeClass) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'HelloNodeClass' with type 'ros.ament_python' and name 'HelloNodeClass'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(NodeObject) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(NodeObject) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(NodeObject) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(NodeObject) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(NodeObject) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(NodeObject) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(NodeObject) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(NodeObject) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(NodeObject) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'NodeObject' with type 'ros.ament_python' and name 'NodeObject'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNode' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNode' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNode' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNode' build argument 'cmake_clean_cache' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNode' build argument 'cmake_clean_first' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNode' build argument 'cmake_force_configure' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNode' build argument 'ament_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNode' build argument 'catkin_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNode' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.162s] DEBUG:colcon.colcon_core.verb:Building package 'HelloNode' with the following arguments: {'ament_cmake_args': None, 'build_base': '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNode', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode', 'merge_install': False, 'path': '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNode', 'symlink_install': False, 'test_result_base': None}
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNodeClass' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNodeClass' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNodeClass' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNodeClass' build argument 'cmake_clean_cache' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNodeClass' build argument 'cmake_clean_first' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNodeClass' build argument 'cmake_force_configure' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNodeClass' build argument 'ament_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNodeClass' build argument 'catkin_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'HelloNodeClass' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.162s] DEBUG:colcon.colcon_core.verb:Building package 'HelloNodeClass' with the following arguments: {'ament_cmake_args': None, 'build_base': '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass', 'merge_install': False, 'path': '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNodeClass', 'symlink_install': False, 'test_result_base': None}
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'NodeObject' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'NodeObject' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'NodeObject' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'NodeObject' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'NodeObject' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'NodeObject' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'NodeObject' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'NodeObject' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'NodeObject' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'NodeObject' with the following arguments: {'ament_cmake_args': None, 'build_base': '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/NodeObject', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject', 'merge_install': False, 'path': '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/NodeObject', 'symlink_install': False, 'test_result_base': None}
+[0.163s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.163s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.164s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNode' with build type 'ament_python'
+[0.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('HelloNode', 'ament_prefix_path')
+[0.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/HelloNode/hook/ament_prefix_path.ps1'
+[0.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/HelloNode/hook/ament_prefix_path.dsv'
+[0.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/HelloNode/hook/ament_prefix_path.sh'
+[0.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.170s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNodeClass' with build type 'ament_python'
+[0.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('HelloNodeClass', 'ament_prefix_path')
+[0.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass/hook/ament_prefix_path.ps1'
+[0.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass/hook/ament_prefix_path.dsv'
+[0.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass/hook/ament_prefix_path.sh'
+[0.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.174s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/NodeObject' with build type 'ament_python'
+[0.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('NodeObject', 'ament_prefix_path')
+[0.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/NodeObject/hook/ament_prefix_path.ps1'
+[0.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/NodeObject/hook/ament_prefix_path.dsv'
+[0.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/NodeObject/hook/ament_prefix_path.sh'
+[0.175s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.315s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNode'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.450s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNodeClass'
+[0.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.589s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/NodeObject'
+[0.590s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.800s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: update_catalog, bdist_dumb, sdist, install_scripts, build_ext, dist_info, bdist_wheel, install_headers, bdist_rpm, install_lib, build, clean, build_py, register, extract_messages, bdist_egg, egg_info, install_egg_info, setopt, easy_install, init_catalog, check, install_data, install, upload_docs, build_scripts, test, upload, bdist, alias, build_clib, saveopts, develop, symlink_data, compile_catalog, rotate
+[0.805s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: update_catalog, bdist_dumb, sdist, install_scripts, build_ext, dist_info, bdist_wheel, install_headers, bdist_rpm, install_lib, build, clean, build_py, register, extract_messages, bdist_egg, egg_info, install_egg_info, setopt, easy_install, init_catalog, check, install_data, install, upload_docs, build_scripts, test, upload, bdist, alias, build_clib, saveopts, develop, symlink_data, compile_catalog, rotate
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNodeClass': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/HelloNodeClass build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/install.log --install-scripts $base/lib/HelloNodeClass --single-version-externally-managed install_data
+[0.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/NodeObject': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/NodeObject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/NodeObject build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/NodeObject/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/NodeObject/install.log --install-scripts $base/lib/NodeObject --single-version-externally-managed install_data
+[0.807s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: update_catalog, bdist_dumb, sdist, install_scripts, build_ext, dist_info, bdist_wheel, install_headers, bdist_rpm, install_lib, build, clean, build_py, register, extract_messages, bdist_egg, egg_info, install_egg_info, setopt, easy_install, init_catalog, check, install_data, install, upload_docs, build_scripts, test, upload, bdist, alias, build_clib, saveopts, develop, symlink_data, compile_catalog, rotate
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNode': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/HelloNode build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNode/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNode/install.log --install-scripts $base/lib/HelloNode --single-version-externally-managed install_data
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNodeClass' returned '0': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/HelloNodeClass build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/install.log --install-scripts $base/lib/HelloNodeClass --single-version-externally-managed install_data
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass' for CMake module files
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass' for CMake config files
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/bin'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/pkgconfig/HelloNodeClass.pc'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages'
+[0.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('HelloNodeClass', 'pythonpath')
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass/hook/pythonpath.ps1'
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass/hook/pythonpath.dsv'
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass/hook/pythonpath.sh'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/bin'
+[0.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(HelloNodeClass)
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass/package.ps1'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass/package.dsv'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass/package.sh'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass/package.bash'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/HelloNodeClass/package.zsh'
+[0.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/share/colcon-core/packages/HelloNodeClass)
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject' for CMake module files
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/NodeObject' returned '0': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/NodeObject/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/NodeObject build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/NodeObject/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/NodeObject/install.log --install-scripts $base/lib/NodeObject --single-version-externally-managed install_data
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject' for CMake config files
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/lib'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/bin'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/lib/pkgconfig/NodeObject.pc'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/lib/python3.10/site-packages'
+[0.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('NodeObject', 'pythonpath')
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/NodeObject/hook/pythonpath.ps1'
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/NodeObject/hook/pythonpath.dsv'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/NodeObject/hook/pythonpath.sh'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/bin'
+[0.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(NodeObject)
+[0.969s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/NodeObject/package.ps1'
+[0.969s] INFO:colcon.colcon_core.shell:Creating package descriptor '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/NodeObject/package.dsv'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/NodeObject/package.sh'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/NodeObject/package.bash'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/NodeObject/package.zsh'
+[0.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/NodeObject/share/colcon-core/packages/NodeObject)
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode' for CMake module files
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNode' returned '0': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/HelloNode build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNode/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNode/install.log --install-scripts $base/lib/HelloNode --single-version-externally-managed install_data
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode' for CMake config files
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/lib'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/bin'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/lib/pkgconfig/HelloNode.pc'
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/lib/python3.10/site-packages'
+[0.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('HelloNode', 'pythonpath')
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/HelloNode/hook/pythonpath.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/HelloNode/hook/pythonpath.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/HelloNode/hook/pythonpath.sh'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/bin'
+[0.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(HelloNode)
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/HelloNode/package.ps1'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/HelloNode/package.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/HelloNode/package.sh'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/HelloNode/package.bash'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/HelloNode/package.zsh'
+[0.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNode/share/colcon-core/packages/HelloNode)
+[0.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.981s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.985s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.986s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.986s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.987s] INFO:colcon.colcon_core.shell:Creating prefix script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/local_setup.ps1'
+[0.987s] INFO:colcon.colcon_core.shell:Creating prefix util module '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/_local_setup_util_ps1.py'
+[0.988s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/setup.ps1'
+[0.989s] INFO:colcon.colcon_core.shell:Creating prefix script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/local_setup.sh'
+[0.989s] INFO:colcon.colcon_core.shell:Creating prefix util module '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/_local_setup_util_sh.py'
+[0.990s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/setup.sh'
+[0.991s] INFO:colcon.colcon_core.shell:Creating prefix script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/local_setup.bash'
+[0.991s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/setup.bash'
+[0.992s] INFO:colcon.colcon_core.shell:Creating prefix script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/local_setup.zsh'
+[0.992s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/setup.zsh'

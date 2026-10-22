@@ -1,0 +1,41 @@
+[0.903s] Invoking command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/learning_topic': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/learning_topic build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/install.log --install-scripts $base/lib/learning_topic --single-version-externally-managed install_data
+[1.039s] running egg_info
+[1.040s] creating ../build/learning_topic/learning_topic.egg-info
+[1.040s] writing ../build/learning_topic/learning_topic.egg-info/PKG-INFO
+[1.040s] writing dependency_links to ../build/learning_topic/learning_topic.egg-info/dependency_links.txt
+[1.040s] writing entry points to ../build/learning_topic/learning_topic.egg-info/entry_points.txt
+[1.040s] writing requirements to ../build/learning_topic/learning_topic.egg-info/requires.txt
+[1.040s] writing top-level names to ../build/learning_topic/learning_topic.egg-info/top_level.txt
+[1.041s] writing manifest file '../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[1.041s] reading manifest file '../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[1.041s] writing manifest file '../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[1.042s] running build
+[1.042s] running build_py
+[1.042s] creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build
+[1.042s] creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build/lib
+[1.042s] creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build/lib/learning_topic
+[1.042s] copying learning_topic/HelloWorldTopicSubscriber.py -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build/lib/learning_topic
+[1.042s] copying learning_topic/HelloWorldTopicPulisher.py -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build/lib/learning_topic
+[1.042s] copying learning_topic/__init__.py -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build/lib/learning_topic
+[1.042s] running install
+[1.042s] running install_lib
+[1.042s] creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[1.042s] copying /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build/lib/learning_topic/HelloWorldTopicSubscriber.py -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[1.042s] copying /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build/lib/learning_topic/HelloWorldTopicPulisher.py -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[1.043s] copying /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build/lib/learning_topic/__init__.py -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages/learning_topic
+[1.043s] byte-compiling /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages/learning_topic/HelloWorldTopicSubscriber.py to HelloWorldTopicSubscriber.cpython-310.pyc
+[1.043s] byte-compiling /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages/learning_topic/HelloWorldTopicPulisher.py to HelloWorldTopicPulisher.cpython-310.pyc
+[1.043s] byte-compiling /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages/learning_topic/__init__.py to __init__.cpython-310.pyc
+[1.043s] running install_data
+[1.044s] creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/share/ament_index
+[1.044s] creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/share/ament_index/resource_index
+[1.044s] creating /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/share/ament_index/resource_index/packages
+[1.044s] copying resource/learning_topic -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/share/ament_index/resource_index/packages
+[1.044s] copying package.xml -> /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/share/learning_topic
+[1.044s] running install_egg_info
+[1.045s] Copying ../build/learning_topic/learning_topic.egg-info to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages/learning_topic-0.0.0-py3.10.egg-info
+[1.045s] running install_scripts
+[1.059s] Installing publisher script to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/learning_topic
+[1.059s] Installing subscriber script to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/learning_topic
+[1.059s] writing list of installed files to '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/install.log'
+[1.086s] Invoked command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/learning_topic' returned '0': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/learning_topic build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/install.log --install-scripts $base/lib/learning_topic --single-version-externally-managed install_data

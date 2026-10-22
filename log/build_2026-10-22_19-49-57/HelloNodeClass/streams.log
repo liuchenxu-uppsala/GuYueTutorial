@@ -1,0 +1,21 @@
+[1.003s] Invoking command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNodeClass': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/HelloNodeClass build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/install.log --install-scripts $base/lib/HelloNodeClass --single-version-externally-managed install_data
+[1.134s] running egg_info
+[1.134s] writing ../build/HelloNodeClass/HelloNodeClass.egg-info/PKG-INFO
+[1.134s] writing dependency_links to ../build/HelloNodeClass/HelloNodeClass.egg-info/dependency_links.txt
+[1.134s] writing entry points to ../build/HelloNodeClass/HelloNodeClass.egg-info/entry_points.txt
+[1.134s] writing requirements to ../build/HelloNodeClass/HelloNodeClass.egg-info/requires.txt
+[1.134s] writing top-level names to ../build/HelloNodeClass/HelloNodeClass.egg-info/top_level.txt
+[1.135s] reading manifest file '../build/HelloNodeClass/HelloNodeClass.egg-info/SOURCES.txt'
+[1.135s] writing manifest file '../build/HelloNodeClass/HelloNodeClass.egg-info/SOURCES.txt'
+[1.136s] running build
+[1.136s] running build_py
+[1.136s] running install
+[1.136s] running install_lib
+[1.137s] running install_data
+[1.137s] running install_egg_info
+[1.138s] removing '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages/HelloNodeClass-0.0.0-py3.10.egg-info' (and everything under it)
+[1.139s] Copying ../build/HelloNodeClass/HelloNodeClass.egg-info to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages/HelloNodeClass-0.0.0-py3.10.egg-info
+[1.139s] running install_scripts
+[1.151s] Installing helloclass script to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/HelloNodeClass
+[1.151s] writing list of installed files to '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/install.log'
+[1.168s] Invoked command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/HelloNodeClass' returned '0': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/HelloNodeClass/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/HelloNodeClass build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/HelloNodeClass/install.log --install-scripts $base/lib/HelloNodeClass --single-version-externally-managed install_data

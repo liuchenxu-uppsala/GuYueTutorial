@@ -1,0 +1,24 @@
+[0.988s] Invoking command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/learning_topic': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/learning_topic build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/install.log --install-scripts $base/lib/learning_topic --single-version-externally-managed install_data
+[1.121s] running egg_info
+[1.121s] writing ../build/learning_topic/learning_topic.egg-info/PKG-INFO
+[1.122s] writing dependency_links to ../build/learning_topic/learning_topic.egg-info/dependency_links.txt
+[1.122s] writing entry points to ../build/learning_topic/learning_topic.egg-info/entry_points.txt
+[1.122s] writing requirements to ../build/learning_topic/learning_topic.egg-info/requires.txt
+[1.122s] writing top-level names to ../build/learning_topic/learning_topic.egg-info/top_level.txt
+[1.123s] reading manifest file '../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[1.123s] writing manifest file '../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[1.123s] running build
+[1.123s] running build_py
+[1.124s] running install
+[1.124s] running install_lib
+[1.124s] running install_data
+[1.125s] running install_egg_info
+[1.126s] removing '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages/learning_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[1.126s] Copying ../build/learning_topic/learning_topic.egg-info to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages/learning_topic-0.0.0-py3.10.egg-info
+[1.126s] running install_scripts
+[1.139s] Installing publisher script to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/learning_topic
+[1.140s] Installing publisherCam script to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/learning_topic
+[1.140s] Installing subscribeCam script to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/learning_topic
+[1.140s] Installing subscriber script to /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/learning_topic
+[1.140s] writing list of installed files to '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/install.log'
+[1.161s] Invoked command in '/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/learning_topic' returned '0': PYTHONPATH=/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/install/learning_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/learning_topic build --build-base /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/build install --record /dobot_ws/shared/ros_ws/ROS_GuYue_ROS2_Tutorial/src/build/learning_topic/install.log --install-scripts $base/lib/learning_topic --single-version-externally-managed install_data
