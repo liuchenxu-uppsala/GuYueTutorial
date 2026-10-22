@@ -1,4 +1,0 @@
-[console_scripts]
-SimpleClient = learning_service.client_service_add:main
-SimpleServer = learning_service.server_service_add:main
-

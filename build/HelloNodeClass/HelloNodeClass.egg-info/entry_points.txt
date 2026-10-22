@@ -1,3 +1,0 @@
-[console_scripts]
-helloclass = HelloNodeClass.HelloNodeClass:main
-

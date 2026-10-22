@@ -1,3 +1,0 @@
-[console_scripts]
-hello = HelloNode.HelloWorld:main
-

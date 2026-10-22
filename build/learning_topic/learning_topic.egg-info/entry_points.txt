@@ -1,6 +1,0 @@
-[console_scripts]
-publisher = learning_topic.HelloWorldTopicPulisher:main
-publisherCam = learning_topic.TopicWebCamPub:main
-subscribeCam = learning_topic.TopicWebCamSub:main
-subscriber = learning_topic.HelloWorldTopicSubscriber:main
-
