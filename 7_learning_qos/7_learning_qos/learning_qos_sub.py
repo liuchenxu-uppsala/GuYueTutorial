@@ -10,7 +10,7 @@ class QosSub(Node):
             history = HistoryPolicy.KEEP_LAST,
             depth = 10,
             reliability = ReliabilityPolicy.BEST_EFFORT,
-            durability = DurabilityPolicy.TRANSIENT_LOCAL
+            durability = DurabilityPolicy.VOLATILE
         )
         self.sub = self.create_subscription(String,'qos_message',self.sub_callback,qos_profile)
     def sub_callback(self,msg:String):

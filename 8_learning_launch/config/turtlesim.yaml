@@ -1,0 +1,5 @@
+/*/*:
+   ros__parameters:
+      background_b: 40
+      background_g: 200
+      background_r: 120
