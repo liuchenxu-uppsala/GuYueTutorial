@@ -4,7 +4,7 @@ import rclpy
 import tf_transformations
 from rclpy.node import Node
 from rclpy.time import Time
-from tf2_ros.buffer import Buffer
+from tf2_ros.buffer import Buffer, TransformStamped
 from tf2_ros.transform_listener import TransformListener
 
 
@@ -21,7 +21,7 @@ class TFListener(Node):
 
     def timer_callback(self):
         now = Time()
-        trans = self.buffer.lookup_transform('world', 'house', now)
+        trans:TransformStamped = self.buffer.lookup_transform('world', 'house', now)
         pos = trans.transform.translation
         roat = trans.transform.rotation
         euler = tf_transformations.euler_from_quaternion([roat.x, roat.y, roat.z, roat.w])
